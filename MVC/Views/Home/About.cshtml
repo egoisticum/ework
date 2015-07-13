@@ -1,4 +1,100 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h1>This is ABOUT page</h1>
+<!--  HEADER -->
+<header class="alt-3">
+
+    <div class="top">
+        <div class="row">
+            <div class="small-12 large-3 medium-3 columns">
+                <div class="logo">
+                    <a href="index.html" title=""><img src="images/logo.png" alt="" title="" /></a>
+                </div>
+            </div>
+
+            <div class="small-12 large-9 medium-9 columns">
+                @{Html.RenderPartial("_Menu");}
+            </div>
+        </div>
+    </div>
+    <!--  MESSAGES ABOVE HEADER IMAGE -->
+    <div class="message">
+        <div class="row">
+            <div class="small-12 columns">
+                <div class="message-intro">
+                    <span class="message-line"></span>
+                    <p>About Us</p>
+                    <span class="message-line"></span>
+                </div>
+                <h1>eWork - Opportunity for work</h1>
+            </div>
+        </div>
+    </div>
+    <!--  END OF MESSAGES ABOVE HEADER IMAGE -->
+
+</header>
+<!--  END OF HEADER -->
+
+<div class="about-us-subheader">
+    <div class="row">
+        <div class="small-12 columns">
+            <h2>Need work done?</h2>
+            <p>
+                Post your project and receive competitive bids from freelancers within minutes. Our reputation system will make it easy to find the perfect freelancer for your job. It's the simplest and safest way to get work done online!
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="about-us-subheader">
+    <div class="row">
+        <div class="small-12 columns">
+            <h2>Find Freelance Work Online</h2>
+            <p>
+                Work on what you want, when you want and where you want to! Expose your talents and skills to the world and get paid for it without ever leaving your home or office!
+            </p>
+            <p>
+                Whether you're looking for a part-time job to supplement your income or you want to expand the client base for your full-time business, you'll find plenty of opportunities from employers who are specifically seeking you out here on ework.com.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!--  ABOUT US LINKS -->
+<section class="about-us-links">
+    <div class="row">
+        <div class="small-12 columns">
+
+            <ul class="small-block-grid-1 large-block-grid-3 medium-block-grid-3">
+
+                <li data-wow-delay="0.2s" class="wow fadeInLeft">
+                    <i class="fa fa-info"></i>
+                    <h3>CREATING OPPORTUNITY</h3>
+                    <p>
+                        We’re creating a world of unmatched talent and opportunity, where global teammates who are thousands of miles apart can work together seamlessly.
+                    </p>
+                </li>
+
+                <li data-wow-delay="0.4s" class="wow fadeInLeft">
+                    <i class="fa fa-rocket"></i>
+                    <h3>OUR MISSION</h3>
+                    <p>
+                        To create economic and social value on a global scale by providing a trusted online workplace to connect, collaborate, and succeed.
+                    </p>
+                </li>
+
+                <li data-wow-delay="0.6s" class="wow fadeInLeft">
+                    <i class="fa fa-binoculars"></i>
+                    <h3>OUR VISION</h3>
+                    <p>
+                        To connect businesses with great talent faster than ever before.
+                    </p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+<!--  END OF  ABOUT US LINKS  -->

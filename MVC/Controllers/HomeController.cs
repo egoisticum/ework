@@ -8,11 +8,6 @@ namespace MVC.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Menu()
-        {
-            return View();
-        }
-
         public ActionResult Index()
         {
             return View();
@@ -20,8 +15,6 @@ namespace MVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
@@ -31,5 +24,6 @@ namespace MVC.Controllers
 
             return View();
         }
+
     }
 }
